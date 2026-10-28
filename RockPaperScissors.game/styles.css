@@ -1,0 +1,69 @@
+body{background-color: rgb(245, 210, 252);
+margin: 5;
+padding: 5;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
+}
+
+h1{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 30px;
+    text-shadow:5cm ;
+    color: brown;
+}
+p{
+    color: brown;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: bottom 5px;;
+}
+.button{
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+    align-items: center;
+    
+    
+    
+}
+
+button{
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 25px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    padding: 30px;
+ width:100px ;
+ height: 20px;
+ cursor:pointer;
+    box-shadow:-8px -8px rgba(rgb(199, 61, 214)rgb(232, 153, 240),o) 5px 15px rgb(rgb(15, 1, 1),rgb(15, 1, 1),)rgb(15, 1, 1),
+}
+button:hover{
+    transform: scale(1.1);   
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3); 
+     animation: bounce 0.3s;
+    @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); } 
+    100% { transform: translateY(0); }    
+}
+}
+#rock{
+    background-color: rgb(111, 20, 197);
+}
+#paper{
+    background-color: rgb(9, 126, 126);
+}
+#scissor{
+    background-color: rgb(139, 19, 85);
+}
+
+#user-score{
+    color:rgb(61, 167, 114);
+}
+#myscore{
+    color: rgb(245, 110, 110);
+}
+
